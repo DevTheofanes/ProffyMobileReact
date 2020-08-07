@@ -3,6 +3,7 @@ import { View, Text, ImageBackground } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 import styles from "./styles";
+import PageHeader from "../../components/PageHeader";
 
 // import GiveClassesBgImg from "../../assets/give-classes-background.png";
 // import { RectButton } from "react-native-gesture-handler";
@@ -16,7 +17,7 @@ function TeacherList() {
 
   return (
     <View style={styles.container}>
-      <Text>TeacherList</Text>
+      <PageHeader title="Proffys disponíveis" />
     </View>
   );
 }

@@ -33,7 +33,7 @@ function StudyTabs() {
         inactiveBackgroundColor: "#fafafc",
         inactiveTintColor: "#c1bccc",
         activeBackgroundColor: "#ebebf5",
-        activeTintColor: "#32264d",
+        activeTintColor: "#8257e5",
       }}
     >
       <Screen
